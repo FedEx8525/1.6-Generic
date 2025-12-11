@@ -13,8 +13,8 @@ public class Ex02_Main {
                 new Person("Peregrin", "Took", 28));
 
         System.out.println("Case 2: with a different type and numbers of arguments" +
-                " (Character, Boolean, Integer)");
-        genericMethods.genericMethods("Hobbit", "Elf","Human", "Dwarf", "Orc", "Goblin");
+                " (String, Boolean, Integer)");
+        genericMethods.genericMethods("Hobbit", "Elf",true, 4, 1, false);
 
     }
 }
